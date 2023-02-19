@@ -1,0 +1,41 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+ 
+
+/* @layer utilities{ */
+    /* .bg-size{
+        background-image: url("/dist/FB_IMG_16139030430020692.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        
+    }
+}
+
+/* @layer base{ */
+    /* h1 {
+        @apply text-lime-700 text-[25px]
+    }
+/* } */ 
+
+
+
+
+@layer utilities{
+    .bg-image{
+        background-image: url("/src/FB_IMG_16139030430020692.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+    }
+}
+
+
+@layer base{
+    h1 {
+        @apply text-red-900 text-[25px]
+    }
+}
